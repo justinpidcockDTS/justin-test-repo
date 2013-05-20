@@ -5,3 +5,7 @@ var branding_iron = new BrandingIron("not too hot");
 if (unicorn.hasHorn()) {
   branding_iron.burnOff(unicorns.horn1);
 }
+
+if (unicorn.hasspots()) {
+  branding_iron.paintOn(unicorns.horn1);
+}
