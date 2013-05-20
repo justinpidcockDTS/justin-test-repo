@@ -3,5 +3,7 @@ BrandingIron = require("UnicornBrandingIron");
 var branding_iron = new BrandingIron("not too hot");
 
 if (unicorn.hasHorn()) {
-  branding_iron.burnOff(unicorns.horn1);
+  for (horns in unicorn as curHorn) {
+    branding_iron.burnOff(curHorn);
+  }
 }
